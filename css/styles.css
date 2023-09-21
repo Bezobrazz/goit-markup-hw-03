@@ -1,0 +1,188 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  background-color: var(--white-color);
+}
+
+/* ===================NORMALIZE=================== */
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+/* ===================/NORMALIZE=================== */
+
+/* ===================VAR=================== */
+:root {
+  --brand-color: #4d5ae5;
+
+  --pressed-color: #404bbf;
+
+  --white-color: #fff;
+
+  --primary-color: #2e2f42;
+
+  --text-color: #434455;
+  --cloud-color: #f4f4fd;
+}
+/* ===================/VAR=================== */
+
+/* ===================COMPONENTS=================== */
+
+.btn {
+  background-color: var(--brand-color);
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+}
+.btn:hover,
+:focus {
+  background: var(--pressed-color);
+}
+.section-title {
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.card-title {
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+.card-descr {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+/* ===================/COMPONENTS=================== */
+
+/* ===================HEADER=================== */
+.logo {
+  color: var(--brand-color);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.logo-part {
+  color: var(--primary-color);
+}
+.menu-item a {
+  color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+.menu-item-link:hover {
+  color: var(--pressed-color);
+}
+.menu-item-link:focus {
+  color: var(--pressed-color);
+}
+.contact {
+  font-style: normal;
+}
+.contact-item-link {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+.contact-item-link:hover {
+  color: var(--pressed-color);
+}
+.contact-item-link:focus {
+  color: var(--pressed-color);
+}
+/* ===================/HEADER=================== */
+
+/* ===================HERO=================== */
+.hero {
+  background-color: var(--primary-color);
+}
+.hero-title {
+  color: var(--white-color);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+/* ===================/HERO=================== */
+
+/* ===================ADVANTAGES=================== */
+
+/* ===================/ADVANTAGES=================== */
+
+/* ===================DOING=================== */
+
+/* ===================/DOING=================== */
+
+/* ===================TEAM=================== */
+.team {
+  background-color: var(--cloud-color);
+}
+.team-card {
+  background-color: var(--white-color);
+}
+/* ===================/TEAM=================== */
+
+/* ===================FOOTER=================== */
+.footer {
+  background-color: var(--primary-color);
+}
+.logo-part-footer {
+  color: var(--cloud-color);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.footer-descr {
+  color: var(--cloud-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+/* ===================/FOOTER=================== */
+
+/* Portfolio */
+/* ===================Filter buttons=================== */
+.filter-button {
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--cloud-color);
+  color: var(--brand-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+}
+.filter-button:hover,
+:focus {
+  background-color: var(--pressed-color);
+  color: var(--white-color);
+}
+/* ===================/Filter buttons=================== */
