@@ -97,7 +97,7 @@ img {
 
 /* ===================HEADER=================== */
 .header {
-  padding: 24px 156px;
+  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
@@ -109,7 +109,7 @@ img {
   align-items: center;
 }
 .logo {
-  margin-right: 40px;
+  margin-right: 76px;
 }
 .menu-item {
   display: flex;
