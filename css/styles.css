@@ -32,6 +32,7 @@ img {
 .container {
   max-width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 /* ===================/NORMALIZE=================== */
 
@@ -96,9 +97,12 @@ img {
 
 /* ===================HEADER=================== */
 .header {
+  padding: 24px 156px;
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
   display: flex;
   justify-content: space-between;
-  padding: 24px 156px;
 }
 .menu {
   display: flex;
