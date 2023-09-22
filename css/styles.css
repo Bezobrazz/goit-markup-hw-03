@@ -109,7 +109,7 @@ img {
 
 /* ===================HEADER=================== */
 .header {
-  padding: 24px 0;
+  /* padding: 24px 0; */
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
@@ -119,9 +119,6 @@ img {
 .menu {
   display: flex;
   align-items: center;
-}
-.logo {
-  margin-right: 76px;
 }
 .menu-item {
   display: flex;
@@ -136,12 +133,11 @@ img {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  margin-right: 76px;
+  padding: 24px 0;
 }
 .logo-part {
   color: var(--primary-color);
-}
-.menu-item {
-  padding: 24px 0;
 }
 .menu-item a {
   color: var(--primary-color);
