@@ -52,6 +52,18 @@ img {
 /* ===================/VAR=================== */
 
 /* ===================COMPONENTS=================== */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .btn {
   padding: 16px 32px;
@@ -114,6 +126,7 @@ img {
 .menu-item {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .logo {
   color: var(--brand-color);
@@ -198,6 +211,7 @@ img {
 .card-wrapper {
   display: flex;
   justify-content: space-between;
+  gap: 24px;
 }
 .card-item {
   max-width: 264px;
@@ -210,6 +224,7 @@ img {
 /* ===================DOING=================== */
 .doing {
   min-height: 500px;
+  padding: 120px 0;
 }
 .doing-title {
   margin-bottom: 72px;
@@ -217,6 +232,7 @@ img {
 .doing-card {
   display: flex;
   justify-content: space-between;
+  gap: 24px;
 }
 /* ===================/DOING=================== */
 
@@ -232,17 +248,25 @@ img {
 .team-card-wrapper {
   display: flex;
   justify-content: space-between;
+  gap: 24px;
 }
 .team-card {
   background-color: var(--white-color);
   width: 264px;
   min-height: 348px;
+  border-radius: 0px 0px 4px 4px;
 }
 .card-text-wrapper {
   padding: 32px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.team-card-title {
+  text-align: center;
+}
+.team-card-descr {
+  text-align: center;
 }
 
 /* ===================/TEAM=================== */
@@ -255,7 +279,7 @@ img {
 }
 .logo-footer {
   display: inline-block;
-  margin-bottom: 17px;
+  margin-bottom: 16px;
 }
 .logo-part-footer {
   color: var(--cloud-color);
