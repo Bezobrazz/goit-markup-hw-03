@@ -109,7 +109,7 @@ img {
 
 /* ===================HEADER=================== */
 .header {
-  padding: 24px 0;
+  /* padding: 24px 0; */
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
@@ -124,7 +124,7 @@ img {
 .menu-item {
   display: flex;
   gap: 40px;
-  /* padding: 24px 0; */
+  padding: 24px 0;
 }
 .logo {
   color: var(--brand-color);
@@ -159,7 +159,7 @@ img {
 .contact-item {
   display: flex;
   gap: 40px;
-  /* padding: 24px 0; */
+  padding: 24px 0;
 }
 .contact-item-link {
   color: var(--text-color);
