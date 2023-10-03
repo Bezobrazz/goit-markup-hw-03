@@ -343,6 +343,7 @@ img {
 }
 .gallery-card-text-wrapper {
   border: 1px solid #e7e9fc;
+  border-top: none;
   background: var(--WHITE, #fff);
   padding: 32px 16px;
 }
