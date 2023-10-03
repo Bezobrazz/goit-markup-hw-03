@@ -122,7 +122,6 @@ img {
 .menu-item {
   display: flex;
   gap: 40px;
-  /* padding: 24px 0; */
 }
 .logo {
   color: var(--brand-color);
@@ -137,12 +136,13 @@ img {
 .logo-part {
   color: var(--primary-color);
 }
-.menu-item a {
+.menu-item-link {
   color: var(--primary-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 .menu-item-link:hover {
   color: var(--pressed-color);
